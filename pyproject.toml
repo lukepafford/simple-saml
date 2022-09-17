@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "simple-saml"
+version = "0.1.0"
+description = ""
+authors = ["Luke Pafford <lpafford@amazon.com>"]
+readme = "README.md"
+packages = [{include = "simple_saml"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+bandit = {extras = ["toml"], version = "^1.7.4"}
+
+[tool.bandit]
+exclude_dirs = ["dist", "tests"]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
