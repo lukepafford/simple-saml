@@ -1,5 +1,7 @@
 # Simple Saml
 
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/lukepafford/simple-saml/main.svg)](https://results.pre-commit.ci/latest/github/lukepafford/simple-saml/main)
+
 A Python library that implements the [Security Assertion Markup Language (SAML) V2.0](http://saml.xml.org/saml-specifications).
 
 
