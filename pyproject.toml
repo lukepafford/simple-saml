@@ -12,10 +12,24 @@ python = "^3.10"
 
 [tool.poetry.group.dev.dependencies]
 bandit = {extras = ["toml"], version = "^1.7.4"}
+flake8 = "^5.0.4"
+pre-commit = "^2.20.0"
+black = "^22.8.0"
+mypy = "^0.971"
+pytest = "^7.1.3"
+pytest-cov = "^3.0.0"
 
 [tool.bandit]
 exclude_dirs = ["dist", "tests"]
 
+[tool.mypy]
+strict = "true"
+
+[tool.pytest.ini_options]
+addopts = "--cov=simple_saml --cov-branch --cov-report=term --cov-fail-under=95"
+testpaths = [
+    "tests"
+]
 
 [build-system]
 requires = ["poetry-core"]

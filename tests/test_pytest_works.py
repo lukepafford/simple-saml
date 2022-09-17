@@ -1,2 +1,5 @@
-def test_pytest_runs_successfully():
-    assert 1 == 1
+from simple_saml import empty
+
+
+def test_pytest_runs_successfully() -> None:
+    empty()

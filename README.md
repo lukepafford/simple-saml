@@ -11,15 +11,15 @@ With that said, here is an alternative description:
 
 SAML is all about three things:
 
-  * Browser Redirects
-  * Identity Providers (IDP)
-  * Service Providers (SP)
+* Browser Redirects
+* Identity Providers (IDP)
+* Service Providers (SP)
 
 Before going further, if you aren't proficient with knowledge about HTTP, SAML will never click. You're trying to run before you can walk. You should familiarize yourself with the following subjects before trying to tackle SAML:
 
-  * [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) (The internet protocol used to send/receive websites that you're reading this document on)
-  * [HTTP Redirects](https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections)
-  * [X509 Certificates](https://en.wikipedia.org/wiki/X.509) - Certificates are used everywhere on the internet. Learning about Certificates provides benefits that extend far beyond SAML
+* [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) (The internet protocol used to send/receive websites that you're reading this document on)
+* [HTTP Redirects](https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections)
+* [X509 Certificates](https://en.wikipedia.org/wiki/X.509) - Certificates are used everywhere on the internet. Learning about Certificates provides benefits that extend far beyond SAML
 
 ## Why?
 

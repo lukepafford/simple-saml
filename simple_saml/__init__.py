@@ -1,3 +1,2 @@
-from subprocess import run
-
-run("echo 'hello'")
+def empty() -> None:
+    print("Hello World")
