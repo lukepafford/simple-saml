@@ -3,6 +3,7 @@
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/lukepafford/simple-saml/main.svg)](https://results.pre-commit.ci/latest/github/lukepafford/simple-saml/main)
 ![python-app workflow status](https://github.com/lukepafford/simple-saml/actions/workflows/python-app.yml/badge.svg)
 [![CodeFactor](https://www.codefactor.io/repository/github/lukepafford/simple-saml/badge)](https://www.codefactor.io/repository/github/lukepafford/simple-saml)
+[![codecov](https://codecov.io/gh/lukepafford/simple-saml/branch/main/graph/badge.svg?token=CHPV5Y0J7Q)](https://codecov.io/gh/lukepafford/simple-saml)
 
 A Python library that implements the [Security Assertion Markup Language (SAML) V2.0](http://saml.xml.org/saml-specifications).
 
