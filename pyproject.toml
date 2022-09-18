@@ -26,7 +26,7 @@ exclude_dirs = ["dist", "tests"]
 strict = "true"
 
 [tool.pytest.ini_options]
-addopts = "--cov=simple_saml --cov-branch --cov-report=term --cov-fail-under=95"
+addopts = "--cov=simple_saml --cov-branch --cov-report term --cov-report=xml:coverage.xml --cov-fail-under=95"
 testpaths = [
     "tests"
 ]
